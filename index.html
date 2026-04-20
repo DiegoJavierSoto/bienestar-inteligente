@@ -1,111 +1,134 @@
 <!DOCTYPE html>
 
-<html lang="es"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Bienestar Inteligente </title>
-<link rel="icon" type="image/png" href="./img/favicon.png">
+<html lang="es">
 
-<meta property="og:title" content="Bienestar Inteligente">
-<meta property="og:description" content="Un método integral para desarrollar hábitos conscientes que potencian tu energía.">
-<meta property="og:image" content="https://bienestar-inteligente.netlify.app/img/logo_1.jpeg">
-<meta property="og:url" content="https://bienestar-inteligente.netlify.app/">
-<meta property="og:type" content="website">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Bienestar Inteligente </title>
+    <link rel="icon" type="image/png" href="./img/favicon.png">
 
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Work+Sans:wght@300;400;500;600&amp;family=Inter:wght@400;500&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script id="tailwind-config">
+    <!-- Open Graph / WhatsApp / Facebook / LinkedIn -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Bienestar Inteligente">
+    <meta property="og:description"
+        content="Un método integral para desarrollar hábitos conscientes que potencian tu energía desde el mínimo esfuerzo.">
+    <meta property="og:image"
+        content="https://github.com/DiegoJavierSoto/bienestar-inteligente/blob/main/img/bienestar_3.png?raw=true">
+    <meta property="og:url" content="https://bienestar-inteligente.netlify.app/">
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Work+Sans:wght@300;400;500;600&amp;family=Inter:wght@400;500&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
         tailwind.config = {
-          darkMode: "class",
-          theme: {
-            extend: {
-              colors: {
-                "outline": "#747969",
-                "on-surface": "#191c1b",
-                "tertiary-container": "#65796c",
-                "secondary": "#576400",
-                "on-primary-fixed": "#111f00",
-                "outline-variant": "#c4c9b6",
-                "error": "#ba1a1a",
-                "inverse-surface": "#2e3130",
-                "surface-dim": "#d8dad9",
-                "primary-fixed": "#c4f185",
-                "on-primary": "#ffffff",
-                "surface-container-highest": "#e1e3e1",
-                "on-secondary-fixed-variant": "#414c00",
-                "surface-container-low": "#f2f4f2",
-                "surface-tint": "#446807",
-                "on-primary-fixed-variant": "#314f00",
-                "on-tertiary-container": "#f6fff6",
-                "primary": "#426604",
-                "on-background": "#191c1b",
-                "tertiary": "#4d6054",
-                "primary-container": "#5a8021",
-                "on-secondary-fixed": "#191e00",
-                "on-surface-variant": "#43493a",
-                "surface": "#f8faf8",
-                "on-secondary-container": "#5d6b00",
-                "inverse-primary": "#a9d46c",
-                "inverse-on-surface": "#eff1ef",
-                "on-tertiary-fixed": "#0d1f15",
-                "tertiary-fixed": "#d2e8d8",
-                "secondary-container": "#daec76",
-                "on-tertiary": "#ffffff",
-                "primary-fixed-dim": "#a9d46c",
-                "surface-bright": "#f8faf8",
-                "background": "#f8faf8",
-                "surface-container-high": "#e6e9e7",
-                "error-container": "#ffdad6",
-                "on-tertiary-fixed-variant": "#384b3f",
-                "surface-variant": "#e1e3e1",
-                "on-secondary": "#ffffff",
-                "on-primary-container": "#faffe9",
-                "on-error": "#ffffff",
-                "surface-container": "#eceeec",
-                "on-error-container": "#93000a",
-                "secondary-fixed-dim": "#bed05e",
-                "surface-container-lowest": "#ffffff",
-                "secondary-fixed": "#daec76",
-                "tertiary-fixed-dim": "#b6ccbc"
-              },
-              fontFamily: {
-                "headline": ["Noto Serif", "serif"],
-                "body": ["Work Sans", "sans-serif"],
-                "label": ["Inter", "sans-serif"]
-              },
-              borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "1.5rem", "full": "9999px"},
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "outline": "#747969",
+                        "on-surface": "#191c1b",
+                        "tertiary-container": "#65796c",
+                        "secondary": "#576400",
+                        "on-primary-fixed": "#111f00",
+                        "outline-variant": "#c4c9b6",
+                        "error": "#ba1a1a",
+                        "inverse-surface": "#2e3130",
+                        "surface-dim": "#d8dad9",
+                        "primary-fixed": "#c4f185",
+                        "on-primary": "#ffffff",
+                        "surface-container-highest": "#e1e3e1",
+                        "on-secondary-fixed-variant": "#414c00",
+                        "surface-container-low": "#f2f4f2",
+                        "surface-tint": "#446807",
+                        "on-primary-fixed-variant": "#314f00",
+                        "on-tertiary-container": "#f6fff6",
+                        "primary": "#426604",
+                        "on-background": "#191c1b",
+                        "tertiary": "#4d6054",
+                        "primary-container": "#5a8021",
+                        "on-secondary-fixed": "#191e00",
+                        "on-surface-variant": "#43493a",
+                        "surface": "#f8faf8",
+                        "on-secondary-container": "#5d6b00",
+                        "inverse-primary": "#a9d46c",
+                        "inverse-on-surface": "#eff1ef",
+                        "on-tertiary-fixed": "#0d1f15",
+                        "tertiary-fixed": "#d2e8d8",
+                        "secondary-container": "#daec76",
+                        "on-tertiary": "#ffffff",
+                        "primary-fixed-dim": "#a9d46c",
+                        "surface-bright": "#f8faf8",
+                        "background": "#f8faf8",
+                        "surface-container-high": "#e6e9e7",
+                        "error-container": "#ffdad6",
+                        "on-tertiary-fixed-variant": "#384b3f",
+                        "surface-variant": "#e1e3e1",
+                        "on-secondary": "#ffffff",
+                        "on-primary-container": "#faffe9",
+                        "on-error": "#ffffff",
+                        "surface-container": "#eceeec",
+                        "on-error-container": "#93000a",
+                        "secondary-fixed-dim": "#bed05e",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-fixed": "#daec76",
+                        "tertiary-fixed-dim": "#b6ccbc"
+                    },
+                    fontFamily: {
+                        "headline": ["Noto Serif", "serif"],
+                        "body": ["Work Sans", "sans-serif"],
+                        "label": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "1.5rem", "full": "9999px" },
+                },
             },
-          },
         }
-      </script>
-<style>
+    </script>
+    <style>
         .material-symbols-outlined {
             font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
         }
-        body { font-family: 'Work Sans', sans-serif; }
-        h1, h2, h3, h4 { font-family: 'Noto Serif', serif; }
+
+        body {
+            font-family: 'Work Sans', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Noto Serif', serif;
+        }
+
         .glass-nav {
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
         }
+
         .editorial-margin {
             margin-left: clamp(1rem, 8.5rem, 10vw);
             margin-right: clamp(1rem, 8.5rem, 10vw);
         }
+
         .bg-hero-gradient {
             background: linear-gradient(135deg, rgba(66, 102, 4, 0.05) 0%, rgba(210, 232, 216, 0.2) 100%);
         }
+
         html {
-    scroll-behavior: smooth;
-}
+            scroll-behavior: smooth;
+        }
     </style>
 </head>
+
 <body class="bg-surface text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed">
-<!-- Navigation -->
+    <!-- Navigation -->
 
 
-<!-- <nav class="fixed top-0 w-full z-50 bg-surface/80 dark:bg-slate-900/80 backdrop-blur-xl shadow-xl shadow-on-surface/5 flex justify-between items-center px-8 py-4 max-w-7xl mx-auto left-1/2 -translate-x-1/2 rounded-b-xl">
+    <!-- <nav class="fixed top-0 w-full z-50 bg-surface/80 dark:bg-slate-900/80 backdrop-blur-xl shadow-xl shadow-on-surface/5 flex justify-between items-center px-8 py-4 max-w-7xl mx-auto left-1/2 -translate-x-1/2 rounded-b-xl">
 <div class="font-serif italic font-bold text-primary dark:text-lime-500 text-xl">Bienestar Inteligente</div>
 <div class="hidden md:flex gap-8 items-center">
 <a class="text-on-surface-variant dark:text-slate-400 hover:text-primary dark:hover:text-lime-300 transition-colors font-sans text-sm tracking-wide" href="#programa">Programa</a>
@@ -126,79 +149,87 @@
 </nav> -->
 
 
-<nav class="fixed top-0 w-full z-50 bg-surface/80 dark:bg-slate-900/80 backdrop-blur-xl shadow-xl flex justify-between items-center px-8 py-4 max-w-7xl mx-auto left-1/2 -translate-x-1/2 rounded-b-xl">
+    <nav
+        class="fixed top-0 w-full z-50 bg-surface/80 dark:bg-slate-900/80 backdrop-blur-xl shadow-xl flex justify-between items-center px-8 py-4 max-w-7xl mx-auto left-1/2 -translate-x-1/2 rounded-b-xl">
 
-<!--     <div class="font-serif italic font-bold text-primary dark:text-lime-500 text-xl">Bienestar Inteligente</div>
- -->    
-    <!-- <a href="#" class="font-serif italic font-bold text-primary dark:text-lime-500 text-xl hover:opacity-80 transition-opacity">
+        <!--     <div class="font-serif italic font-bold text-primary dark:text-lime-500 text-xl">Bienestar Inteligente</div>
+ -->
+        <!-- <a href="#" class="font-serif italic font-bold text-primary dark:text-lime-500 text-xl hover:opacity-80 transition-opacity">
         Bienestar Inteligente
     </a> -->
 
-    <a href="#" class="hover:opacity-80 transition-opacity">
-    <img src="./img/logo-horizontal.png" alt="Bienestar Inteligente" class="h-10 md:h-12 w-auto">
-</a>
+        <a href="#" class="hover:opacity-80 transition-opacity">
+            <img src="./img/logo-horizontal.png" alt="Bienestar Inteligente" class="h-10 md:h-12 w-auto">
+        </a>
 
-    <div class="hidden md:flex gap-8 items-center">
-        <a class="text-on-surface-variant hover:text-primary transition-colors text-sm" href="#programa">Programa</a>
-        <a class="text-on-surface-variant hover:text-primary transition-colors text-sm" href="#pilares">Pilares</a>
-        <a class="text-on-surface-variant hover:text-primary transition-colors text-sm" href="#modulos">Módulos</a>
-        <a class="text-on-surface-variant hover:text-primary transition-colors text-sm" href="#facilitadores">Facilitadores</a>
-        <a class="bg-primary text-on-primary px-6 py-2 rounded-full font-medium" href="https://wa.me/5492235578289">Inscríbete</a>
-    </div>
+        <div class="hidden md:flex gap-8 items-center">
+            <a class="text-on-surface-variant hover:text-primary transition-colors text-sm"
+                href="#programa">Programa</a>
+            <a class="text-on-surface-variant hover:text-primary transition-colors text-sm" href="#pilares">Pilares</a>
+            <a class="text-on-surface-variant hover:text-primary transition-colors text-sm" href="#modulos">Módulos</a>
+            <a class="text-on-surface-variant hover:text-primary transition-colors text-sm"
+                href="#facilitadores">Facilitadores</a>
+            <a class="bg-primary text-on-primary px-6 py-2 rounded-full font-medium"
+                href="https://wa.me/5492235578289">Inscríbete</a>
+        </div>
 
-    <button id="menu-btn" class="md:hidden text-primary focus:outline-none">
-        <span class="material-symbols-outlined text-3xl">menu</span>
-    </button>
+        <button id="menu-btn" class="md:hidden text-primary focus:outline-none">
+            <span class="material-symbols-outlined text-3xl">menu</span>
+        </button>
 
-    <div id="mobile-menu" class="hidden absolute top-full left-0 w-full bg-surface shadow-2xl flex flex-col p-8 gap-6 md:hidden border-t border-outline-variant/10 rounded-b-xl">
-    <a class="menu-link text-lg font-medium" href="#programa">Programa</a>
-    <a class="menu-link text-lg font-medium" href="#pilares">Pilares</a>
-    <a class="menu-link text-lg font-medium" href="#modulos">Módulos</a>
-    <a class="menu-link text-lg font-medium" href="#facilitadores">Facilitadores</a>
-    <a class="bg-primary text-on-primary px-6 py-4 rounded-xl font-bold text-center active:scale-95 transition-transform" 
-       href="https://wa.me/5492235578289?text=Hola!%20Estoy%20interesado%20en%20el%20taller,%20quiero%20inscribirme!" 
-       target="_blank">
-       Inscríbete
-    </a>
-</div>
+        <div id="mobile-menu"
+            class="hidden absolute top-full left-0 w-full bg-surface shadow-2xl flex flex-col p-8 gap-6 md:hidden border-t border-outline-variant/10 rounded-b-xl">
+            <a class="menu-link text-lg font-medium" href="#programa">Programa</a>
+            <a class="menu-link text-lg font-medium" href="#pilares">Pilares</a>
+            <a class="menu-link text-lg font-medium" href="#modulos">Módulos</a>
+            <a class="menu-link text-lg font-medium" href="#facilitadores">Facilitadores</a>
+            <a class="bg-primary text-on-primary px-6 py-4 rounded-xl font-bold text-center active:scale-95 transition-transform"
+                href="https://wa.me/5492235578289?text=Hola!%20Estoy%20interesado%20en%20el%20taller,%20quiero%20inscribirme!"
+                target="_blank">
+                Inscríbete
+            </a>
+        </div>
 
-</nav>
+    </nav>
 
 
 
 
-<!-- Hero Section -->
-<header class="pt-32 pb-20 editorial-margin">
-<div class="grid md:grid-cols-2 gap-16 items-center">
-<div class="space-y-8">
+    <!-- Hero Section -->
+    <header class="pt-32 pb-20 editorial-margin">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+            <div class="space-y-8">
 
-<!-- <span class="text-primary font-label text-sm tracking-widest uppercase">Generación + Presenta</span>
+                <!-- <span class="text-primary font-label text-sm tracking-widest uppercase">Generación + Presenta</span>
  -->
 
 
-<h1 class="text-6xl md:text-8xl font-headline font-bold text-primary leading-tight tracking-tighter">Bienestar Inteligente</h1>
-<p class="text-xl md:text-2xl font-body text-on-surface-variant leading-relaxed max-w-xl">
-                    Un método integral para desarrollar hábitos conscientes que potencian tu energía desde el mínimo esfuerzo.
+                <h1 class="text-6xl md:text-8xl font-headline font-bold text-primary leading-tight tracking-tighter">
+                    Bienestar Inteligente</h1>
+                <p class="text-xl md:text-2xl font-body text-on-surface-variant leading-relaxed max-w-xl">
+                    Un método integral para desarrollar hábitos conscientes que potencian tu energía desde el mínimo
+                    esfuerzo.
                 </p>
 
 
-<div class="flex flex-col sm:flex-row gap-4 pt-4">
-    <a href="https://wa.me/5492235578289?text=Hola!%20Vi%20la%20web%20y%20quiero%20más%20información%20sobre%20Bienestar%20Inteligente" 
-       target="_blank" 
-       class="bg-primary text-on-primary px-10 py-4 rounded-full text-lg font-medium hover:opacity-90 transition-all shadow-lg shadow-primary/20 text-center">
-       Inscríbete
-    </a>
-    <a href="#programa" class="text-primary px-10 py-4 rounded-full text-lg font-medium border border-outline-variant/30 hover:bg-surface-container-low transition-all text-center">
-       Saber más
-    </a>
-</div>
+                <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                    <a href="https://wa.me/5492235578289?text=Hola!%20Vi%20la%20web%20y%20quiero%20más%20información%20sobre%20Bienestar%20Inteligente"
+                        target="_blank"
+                        class="bg-primary text-on-primary px-10 py-4 rounded-full text-lg font-medium hover:opacity-90 transition-all shadow-lg shadow-primary/20 text-center">
+                        Inscríbete
+                    </a>
+                    <a href="#programa"
+                        class="text-primary px-10 py-4 rounded-full text-lg font-medium border border-outline-variant/30 hover:bg-surface-container-low transition-all text-center">
+                        Saber más
+                    </a>
+                </div>
 
 
 
-</div>
+            </div>
 
 
-<!-- <div class="relative">
+            <!-- <div class="relative">
 <div class="aspect-[4/5] rounded-xl overflow-hidden shadow-2xl">
 
 <img class="w-full h-full object-cover" data-alt="Serene young woman practicing yoga in a sunlit room with natural wood textures and soft shadows, looking calm and vital" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMjn_rk_FD1YKad0nwZV4N2LVJbtG9uXcj3GS1csNi8I5xnYn8uzodTkp5CHTkboDAh8NTmMWPlxPcBCge3kOKOQB07RKrd_D235zRNuKCK5zpEBjdaUiPe-4ABXIeORACbF8YSC18KWeXfJEYvnb9I8kephAKYCuPSk5b6VtopxFbNQyV-39ZrkorOYXP8hAccDrHz4lqkASLZmB7t8e-nk59mY1PWfqzgDVfEJlwdPUwGr_iMfJryFzZpR5KMw3NYYaDD8WRKeHF"/>
@@ -210,401 +241,460 @@
 </div> -->
 
 
-<div class="relative">
-    <div class="aspect-[4/5] rounded-xl overflow-hidden shadow-2xl">
-        <img class="w-full h-full object-cover" 
-             alt="Sesión de bienestar inteligente" 
-             src="./img/imagen_2.jpg"/> 
-    </div>
-    <div class="absolute -bottom-8 -left-8 bg-surface-container-lowest p-8 rounded-xl shadow-xl max-w-xs hidden lg:block border border-outline-variant/10">
-        <p class="font-headline italic text-lg text-primary">"El bienestar no es una meta, es un sistema de pequeñas victorias diarias."</p>
-    </div>
-</div>
+            <div class="relative">
+                <div class="aspect-[4/5] rounded-xl overflow-hidden shadow-2xl">
+                    <img class="w-full h-full object-cover" alt="Sesión de bienestar inteligente"
+                        src="./img/imagen_2.jpg" />
+                </div>
+                <div
+                    class="absolute -bottom-8 -left-8 bg-surface-container-lowest p-8 rounded-xl shadow-xl max-w-xs hidden lg:block border border-outline-variant/10">
+                    <p class="font-headline italic text-lg text-primary">"El bienestar no es una meta, es un sistema de
+                        pequeñas victorias diarias."</p>
+                </div>
+            </div>
 
 
-</div>
-</header>
-<!-- Pain Points Section (Moment of Reflection) -->
-<section class="bg-surface-container-low py-24 px-8">
-<div class="max-w-4xl mx-auto text-center space-y-12">
-<h2 class="text-4xl md:text-5xl font-headline text-on-surface leading-snug">
-                ¿Te pasa que sabés qué te haría bien… <br/>
-<span class="italic text-primary-container">pero no lográs sostenerlo?</span>
-</h2>
-<div class="grid md:grid-cols-3 gap-8 text-left mt-16">
-<div class="p-8 bg-surface-container-lowest rounded-xl space-y-4">
-<span class="material-symbols-outlined text-primary text-4xl">battery_alert</span>
-<p class="text-on-surface-variant">Sientes que tu energía se agota antes de terminar el día, sin importar cuánto descanses.</p>
-</div>
-<div class="p-8 bg-surface-container-lowest rounded-xl space-y-4">
-<span class="material-symbols-outlined text-primary text-4xl">psychology_alt</span>
-<p class="text-on-surface-variant">La autocrítica y la exigencia te impiden disfrutar de tus pequeños avances.</p>
-</div>
-<div class="p-8 bg-surface-container-lowest rounded-xl space-y-4">
-<span class="material-symbols-outlined text-primary text-4xl">history</span>
-<p class="text-on-surface-variant">Has intentado cambios drásticos que abandonas a las dos semanas por falta de tiempo.</p>
-</div>
-</div>
-</div>
-</section>
-<!-- Solution Section -->
-<section class="py-32 editorial-margin" id="programa">
-<div class="grid md:grid-cols-12 gap-12 items-center">
-<div class="md:col-span-5">
-<h2 class="text-5xl font-headline font-bold text-primary mb-8 leading-tight">La Inteligencia detrás del Bienestar</h2>
-<p class="text-lg text-on-surface-variant leading-relaxed mb-6">
-                    Bienestar Inteligente es un programa de formación vivencial diseñado para quienes buscan una transformación real sin el peso de la obligación constante.
+        </div>
+    </header>
+    <!-- Pain Points Section (Moment of Reflection) -->
+    <section class="bg-surface-container-low py-24 px-8">
+        <div class="max-w-4xl mx-auto text-center space-y-12">
+            <h2 class="text-4xl md:text-5xl font-headline text-on-surface leading-snug">
+                ¿Te pasa que sabés qué te haría bien… <br />
+                <span class="italic text-primary-container">pero no lográs sostenerlo?</span>
+            </h2>
+            <div class="grid md:grid-cols-3 gap-8 text-left mt-16">
+                <div class="p-8 bg-surface-container-lowest rounded-xl space-y-4">
+                    <span class="material-symbols-outlined text-primary text-4xl">battery_alert</span>
+                    <p class="text-on-surface-variant">Sientes que tu energía se agota antes de terminar el día, sin
+                        importar cuánto descanses.</p>
+                </div>
+                <div class="p-8 bg-surface-container-lowest rounded-xl space-y-4">
+                    <span class="material-symbols-outlined text-primary text-4xl">psychology_alt</span>
+                    <p class="text-on-surface-variant">La autocrítica y la exigencia te impiden disfrutar de tus
+                        pequeños avances.</p>
+                </div>
+                <div class="p-8 bg-surface-container-lowest rounded-xl space-y-4">
+                    <span class="material-symbols-outlined text-primary text-4xl">history</span>
+                    <p class="text-on-surface-variant">Has intentado cambios drásticos que abandonas a las dos semanas
+                        por falta de tiempo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Solution Section -->
+    <section class="py-32 editorial-margin" id="programa">
+        <div class="grid md:grid-cols-12 gap-12 items-center">
+            <div class="md:col-span-5">
+                <h2 class="text-5xl font-headline font-bold text-primary mb-8 leading-tight">La Inteligencia detrás del
+                    Bienestar</h2>
+                <p class="text-lg text-on-surface-variant leading-relaxed mb-6">
+                    Bienestar Inteligente es un programa de formación vivencial diseñado para quienes buscan una
+                    transformación real sin el peso de la obligación constante.
                 </p>
-<p class="text-lg text-on-surface-variant leading-relaxed">
-                    No se trata de fuerza de voluntad, sino de <strong>diseño de sistemas</strong>. Fusionamos ciencia y consciencia para que el bienestar sea el camino más fácil de tomar.
+                <p class="text-lg text-on-surface-variant leading-relaxed">
+                    No se trata de fuerza de voluntad, sino de <strong>diseño de sistemas</strong>. Fusionamos ciencia y
+                    consciencia para que el bienestar sea el camino más fácil de tomar.
                 </p>
-</div>
-<div class="md:col-span-7 grid grid-cols-2 gap-4">
-<div class="space-y-4 mt-12">
-<img class="rounded-xl aspect-square object-cover" data-alt="Close-up of a green leaf with morning dew drops, macro photography emphasizing detail and organic vitality" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSBC6Uh2tCHjeQYOWkjZUYxETXXP3xMr6veINV0DJyXioHbx9NPJ1iWjtUXQWl2OUhhkg4u0i-L54fkLdEwwEeCUuMA8EUubqwE0SBDynmIjUeJst7_fOLiX2R8KhPNI07c87ndBWV8lrfj0Fmd-tSeL1D1Lq3X-DigoYOS6v98p3gfmQiOO-mgSaPTA6cZtbaEDNgDok5DwRYlHmuktwCxU3N1KGggXiFsUvCHLWOTbTaOJk6BozEQf5AuOS-ytt0iReG3KeRMLII"/>
-<div class="bg-tertiary-fixed p-6 rounded-xl">
-<h4 class="font-headline font-bold text-on-tertiary-fixed text-xl">Metodología</h4>
-<p class="text-on-tertiary-fixed-variant text-sm mt-2">Acciones mínimas, resultados exponenciales.</p>
-</div>
-</div>
-<div class="space-y-4">
-<div class="bg-primary-container p-6 rounded-xl text-on-primary-container">
-<h4 class="font-headline font-bold text-2xl">Vivencial</h4>
-<p class="text-on-primary-container/80 text-sm mt-2">Aprendizaje a través de la experiencia directa.</p>
-</div>
-<img class="rounded-xl aspect-[3/4] object-cover" data-alt="Elegant workspace with an open notebook, a ceramic cup of tea, and soft window light reflecting on a wooden desk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCcTK8F3HzYEfXOJW9QNaihK4zgbPnmo95jTYTrtmNcMrHJDMsHVnwCsepFAt77kjfZilk1MoPC34xzGqPs9Frzk3iAGDz8_PUsexcvKoBT2iKiJ4WTbjmKEzds6uoyWWauHMo-0Xu0tjQzmr5LUkTSOz22BwivBAnZzNEOcznblISCKmRGcLywUjopIl9IwGQyQMu1dcltMlmW46GC5XEsiSPJwJfS-IiqOgOgm4BbKnHyLwlyraU298LAyKcvxYeB9mzPtGKnk6x"/>
-</div>
-</div>
-</div>
-</section>
-<!-- Pillars Section -->
-<section class="bg-surface py-24 editorial-margin border-t border-outline-variant/10" id="pilares">
-<div class="text-center mb-20">
-<h2 class="text-4xl font-headline font-bold">Pilares Integradores</h2>
-<div class="w-24 h-1 bg-primary mx-auto mt-6 rounded-full"></div>
-</div>
-<div class="flex flex-wrap justify-center gap-12">
-<div class="flex flex-col items-center text-center max-w-[200px] group">
-<div class="w-20 h-20 rounded-full bg-surface-container-low flex items-center justify-center mb-4 transition-all group-hover:bg-primary-container group-hover:text-on-primary-container">
-<span class="material-symbols-outlined text-3xl">diversity_3</span>
-</div>
-<h4 class="font-headline font-bold mb-2">Coaching Ontológico</h4>
-<p class="text-xs text-on-surface-variant">El ser detrás del hacer</p>
-</div>
-<div class="flex flex-col items-center text-center max-w-[200px] group">
-<div class="w-20 h-20 rounded-full bg-surface-container-low flex items-center justify-center mb-4 transition-all group-hover:bg-primary-container group-hover:text-on-primary-container">
-<span class="material-symbols-outlined text-3xl">spa</span>
-</div>
-<h4 class="font-headline font-bold mb-2">Health Coaching</h4>
-<p class="text-xs text-on-surface-variant">Bio-individualidad</p>
-</div>
-<div class="flex flex-col items-center text-center max-w-[200px] group">
-<div class="w-20 h-20 rounded-full bg-surface-container-low flex items-center justify-center mb-4 transition-all group-hover:bg-primary-container group-hover:text-on-primary-container">
-<span class="material-symbols-outlined text-3xl">psychology</span>
-</div>
-<h4 class="font-headline font-bold mb-2">Neuroplasticidad</h4>
-<p class="text-xs text-on-surface-variant">Reprogramar rutas mentales</p>
-</div>
-<div class="flex flex-col items-center text-center max-w-[200px] group">
-<div class="w-20 h-20 rounded-full bg-surface-container-low flex items-center justify-center mb-4 transition-all group-hover:bg-primary-container group-hover:text-on-primary-container">
-<span class="material-symbols-outlined text-3xl">medication</span>
-</div>
-<h4 class="font-headline font-bold mb-2">Medicina Integrativa</h4>
-<p class="text-xs text-on-surface-variant">Salud desde la raíz sistémica</p>
-</div>
-<div class="flex flex-col items-center text-center max-w-[200px] group">
-<div class="w-20 h-20 rounded-full bg-surface-container-low flex items-center justify-center mb-4 transition-all group-hover:bg-primary-container group-hover:text-on-primary-container">
-<span class="material-symbols-outlined text-3xl">settings_accessibility</span>
-</div>
-<h4 class="font-headline font-bold mb-2">Diseño de Hábitos</h4>
-<p class="text-xs text-on-surface-variant">Estructura para la libertad</p>
-</div>
-</div>
-</section>
-<!-- Goals Grid -->
-<section class="bg-surface-container-low py-32 editorial-margin rounded-3xl">
-<div class="px-8 md:px-16">
-<h2 class="text-4xl font-headline font-bold mb-16">Objetivos del Programa</h2>
-<div class="grid md:grid-cols-5 gap-6">
-<div class="bg-surface-container-lowest p-8 rounded-xl border border-outline-variant/10 hover:shadow-lg transition-all md:col-span-2">
-<span class="text-primary font-bold text-5xl opacity-20 font-headline">01</span>
-<h3 class="text-2xl font-headline font-bold mt-4 mb-4">Autoconocimiento</h3>
-<p class="text-on-surface-variant leading-relaxed">Entender el funcionamiento de tu cuerpo y mente para dejar de luchar contra ellos.</p>
-</div>
-<div class="bg-surface-container-lowest p-8 rounded-xl border border-outline-variant/10 hover:shadow-lg transition-all md:col-span-3">
-<span class="text-primary font-bold text-5xl opacity-20 font-headline">02</span>
-<h3 class="text-2xl font-headline font-bold mt-4 mb-4">Patrones de Conducta</h3>
-<p class="text-on-surface-variant leading-relaxed">Identificar y transformar los disparadores inconscientes que te llevan al agotamiento o la inacción.</p>
-</div>
-<div class="bg-surface-container-lowest p-8 rounded-xl border border-outline-variant/10 hover:shadow-lg transition-all md:col-span-3">
-<span class="text-primary font-bold text-5xl opacity-20 font-headline">03</span>
-<h3 class="text-2xl font-headline font-bold mt-4 mb-4">Hábitos Atómicos</h3>
-<p class="text-on-surface-variant leading-relaxed">Implementar micro-hábitos que no requieren fuerza de voluntad pero generan grandes cambios acumulativos.</p>
-</div>
-<div class="bg-surface-container-lowest p-8 rounded-xl border border-outline-variant/10 hover:shadow-lg transition-all md:col-span-2">
-<span class="text-primary font-bold text-5xl opacity-20 font-headline">04</span>
-<h3 class="text-2xl font-headline font-bold mt-4 mb-4">Autonomía Energética</h3>
-<p class="text-on-surface-variant leading-relaxed">Convertirte en el propio gestor de tu vitalidad física y mental.</p>
-</div>
-<div class="bg-primary text-on-primary p-8 rounded-xl md:col-span-5 flex flex-col md:flex-row items-center justify-between gap-8">
-<div>
-<span class="font-bold text-5xl opacity-20 font-headline">05</span>
-<h3 class="text-3xl font-headline font-bold mt-2">Tu Sistema Personal</h3>
-</div>
-<p class="text-on-primary/90 text-lg max-w-xl text-left">Diseñar un traje a medida de bienestar que se adapte a tu vida real, no a una idealizada.</p>
-</div>
-</div>
-</div>
-</section>
-<!-- Methodology & Details -->
-<section class="py-32 editorial-margin">
-<div class="grid md:grid-cols-2 gap-20 items-center">
-<div class="order-2 md:order-1">
-<div class="aspect-square bg-surface-container rounded-full relative overflow-hidden">
-<img class="w-full h-full object-cover mix-blend-multiply opacity-80" data-alt="A group of diverse professionals sitting in a circle in a bright modern studio, sharing experiences and laughing softly" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAepznSwyZ_c6itBEu3OoMFn8MS7Uhqfm29F9asHjR42KxzoYRkHWe5DOO_yBFbqjJU-AvJtokLsHydrROJugSJwo2w8BZ0D3gwzb4P32hP7W5f0-nCWM_PbYRVjqnz3Cfb6_qjdWJ4WCrhP6u7Yzim4oKmpOLyCDUwhVPE0qffIlljRTBRiHoCfy06F-dg5FMqpvgjbVHcEibHgiSIR9CgG9OVd9tiPTy-7O4duPSG8Sj7ALyItXmt-l7PXk_XOeuT48HnGI1_qKX-"/>
-</div>
-</div>
-<div class="order-1 md:order-2 space-y-10">
-<h2 class="text-4xl font-headline font-bold">Cómo lo vamos a vivir</h2>
-<div class="space-y-6">
-<div class="flex gap-6 pb-6 border-b border-outline-variant/20">
-<span class="material-symbols-outlined text-primary text-3xl">video_call</span>
-<div>
-<h4 class="font-bold text-lg">12 Clases Online</h4>
-<p class="text-on-surface-variant">Modalidad online sincrónica por Zoom (con acceso a grabaciones).</p>
-</div>
-</div>
-<div class="flex gap-6 pb-6 border-b border-outline-variant/20">
-<span class="material-symbols-outlined text-primary text-3xl">calendar_month</span>
-<div>
-<h4 class="font-bold text-lg">Inicia 7 de Mayo, 2026</h4>
-<p class="text-on-surface-variant">Jueves de 19:00 a 21:00 hs. Un espacio sagrado en tu agenda.</p>
-</div>
-</div>
-<div class="flex gap-6 pb-6 border-b border-outline-variant/20">
-<span class="material-symbols-outlined text-primary text-3xl">forum</span>
-<div>
-<h4 class="font-bold text-lg">Intercambio Grupal</h4>
-<p class="text-on-surface-variant">Micro-acciones semanales y seguimiento en comunidad.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Modules Section -->
-<section class="py-32 bg-surface-container-lowest" id="modulos">
-<div class="editorial-margin">
-<h2 class="text-4xl md:text-5xl font-headline font-bold text-center mb-20">El Viaje de Transformación</h2>
-<div class="grid md:grid-cols-4 gap-4">
-<div class="group cursor-default">
-<div class="h-full p-8 rounded-xl bg-surface hover:bg-primary transition-all duration-500 border border-outline-variant/10 group-hover:border-transparent">
-<h5 class="text-primary group-hover:text-on-primary font-label text-sm mb-4">MÓDULO I</h5>
-<h4 class="text-2xl font-headline font-bold mb-4 group-hover:text-on-primary">Conciencia</h4>
-<p class="text-on-surface-variant group-hover:text-on-primary/80">Del "automático" al entendimiento. Identificando los hilos que mueven tus hábitos actuales.</p>
-</div>
-</div>
-<div class="group cursor-default">
-<div class="h-full p-8 rounded-xl bg-surface hover:bg-primary transition-all duration-500 border border-outline-variant/10 group-hover:border-transparent">
-<h5 class="text-primary group-hover:text-on-primary font-label text-sm mb-4">MÓDULO II</h5>
-<h4 class="text-2xl font-headline font-bold mb-4 group-hover:text-on-primary">Reprogramación</h4>
-<p class="text-on-surface-variant group-hover:text-on-primary/80">De la exigencia al autodiálogo. Transformando la narrativa interna para habilitar el cambio.</p>
-</div>
-</div>
-<div class="group cursor-default">
-<div class="h-full p-8 rounded-xl bg-surface hover:bg-primary transition-all duration-500 border border-outline-variant/10 group-hover:border-transparent">
-<h5 class="text-primary group-hover:text-on-primary font-label text-sm mb-4">MÓDULO III</h5>
-<h4 class="text-2xl font-headline font-bold mb-4 group-hover:text-on-primary">Hábitos</h4>
-<p class="text-on-surface-variant group-hover:text-on-primary/80">De la intención a la realidad. Aplicando el principio del mínimo esfuerzo para resultados máximos.</p>
-</div>
-</div>
-<div class="group cursor-default">
-<div class="h-full p-8 rounded-xl bg-surface hover:bg-primary transition-all duration-500 border border-outline-variant/10 group-hover:border-transparent">
-<h5 class="text-primary group-hover:text-on-primary font-label text-sm mb-4">MÓDULO IV</h5>
-<h4 class="text-2xl font-headline font-bold mb-4 group-hover:text-on-primary">Integración</h4>
-<p class="text-on-surface-variant group-hover:text-on-primary/80">De "ir probando" a tener un sistema propio. Consolidando tu diseño personal de bienestar inteligente.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Facilitators Section -->
-<section class="py-32 editorial-margin" id="facilitadores">
-<div class="mb-16">
-<h2 class="text-4xl font-headline font-bold">Tu equipo de guías</h2>
-<p class="text-on-surface-variant mt-4 text-lg">Profesionales con trayectoria dedicadas a tu desarrollo integral.</p>
-</div>
-<div class="grid md:grid-cols-2 gap-12">
-<!-- Facilitator 1 -->
-<div class="flex flex-col md:flex-row gap-8 items-center md:items-start p-8 rounded-xl bg-surface-container-low border border-outline-variant/10">
-<div class="w-48 h-64 flex-shrink-0 rounded-xl overflow-hidden shadow-lg">
+            </div>
+            <div class="md:col-span-7 grid grid-cols-2 gap-4">
+                <div class="space-y-4 mt-12">
+                    <img class="rounded-xl aspect-square object-cover"
+                        data-alt="Close-up of a green leaf with morning dew drops, macro photography emphasizing detail and organic vitality"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSBC6Uh2tCHjeQYOWkjZUYxETXXP3xMr6veINV0DJyXioHbx9NPJ1iWjtUXQWl2OUhhkg4u0i-L54fkLdEwwEeCUuMA8EUubqwE0SBDynmIjUeJst7_fOLiX2R8KhPNI07c87ndBWV8lrfj0Fmd-tSeL1D1Lq3X-DigoYOS6v98p3gfmQiOO-mgSaPTA6cZtbaEDNgDok5DwRYlHmuktwCxU3N1KGggXiFsUvCHLWOTbTaOJk6BozEQf5AuOS-ytt0iReG3KeRMLII" />
+                    <div class="bg-tertiary-fixed p-6 rounded-xl">
+                        <h4 class="font-headline font-bold text-on-tertiary-fixed text-xl">Metodología</h4>
+                        <p class="text-on-tertiary-fixed-variant text-sm mt-2">Acciones mínimas, resultados
+                            exponenciales.</p>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <div class="bg-primary-container p-6 rounded-xl text-on-primary-container">
+                        <h4 class="font-headline font-bold text-2xl">Vivencial</h4>
+                        <p class="text-on-primary-container/80 text-sm mt-2">Aprendizaje a través de la experiencia
+                            directa.</p>
+                    </div>
+                    <img class="rounded-xl aspect-[3/4] object-cover"
+                        data-alt="Elegant workspace with an open notebook, a ceramic cup of tea, and soft window light reflecting on a wooden desk"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCcTK8F3HzYEfXOJW9QNaihK4zgbPnmo95jTYTrtmNcMrHJDMsHVnwCsepFAt77kjfZilk1MoPC34xzGqPs9Frzk3iAGDz8_PUsexcvKoBT2iKiJ4WTbjmKEzds6uoyWWauHMo-0Xu0tjQzmr5LUkTSOz22BwivBAnZzNEOcznblISCKmRGcLywUjopIl9IwGQyQMu1dcltMlmW46GC5XEsiSPJwJfS-IiqOgOgm4BbKnHyLwlyraU298LAyKcvxYeB9mzPtGKnk6x" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pillars Section -->
+    <section class="bg-surface py-24 editorial-margin border-t border-outline-variant/10" id="pilares">
+        <div class="text-center mb-20">
+            <h2 class="text-4xl font-headline font-bold">Pilares Integradores</h2>
+            <div class="w-24 h-1 bg-primary mx-auto mt-6 rounded-full"></div>
+        </div>
+        <div class="flex flex-wrap justify-center gap-12">
+            <div class="flex flex-col items-center text-center max-w-[200px] group">
+                <div
+                    class="w-20 h-20 rounded-full bg-surface-container-low flex items-center justify-center mb-4 transition-all group-hover:bg-primary-container group-hover:text-on-primary-container">
+                    <span class="material-symbols-outlined text-3xl">diversity_3</span>
+                </div>
+                <h4 class="font-headline font-bold mb-2">Coaching Ontológico</h4>
+                <p class="text-xs text-on-surface-variant">El ser detrás del hacer</p>
+            </div>
+            <div class="flex flex-col items-center text-center max-w-[200px] group">
+                <div
+                    class="w-20 h-20 rounded-full bg-surface-container-low flex items-center justify-center mb-4 transition-all group-hover:bg-primary-container group-hover:text-on-primary-container">
+                    <span class="material-symbols-outlined text-3xl">spa</span>
+                </div>
+                <h4 class="font-headline font-bold mb-2">Health Coaching</h4>
+                <p class="text-xs text-on-surface-variant">Bio-individualidad</p>
+            </div>
+            <div class="flex flex-col items-center text-center max-w-[200px] group">
+                <div
+                    class="w-20 h-20 rounded-full bg-surface-container-low flex items-center justify-center mb-4 transition-all group-hover:bg-primary-container group-hover:text-on-primary-container">
+                    <span class="material-symbols-outlined text-3xl">psychology</span>
+                </div>
+                <h4 class="font-headline font-bold mb-2">Neuroplasticidad</h4>
+                <p class="text-xs text-on-surface-variant">Reprogramar rutas mentales</p>
+            </div>
+            <div class="flex flex-col items-center text-center max-w-[200px] group">
+                <div
+                    class="w-20 h-20 rounded-full bg-surface-container-low flex items-center justify-center mb-4 transition-all group-hover:bg-primary-container group-hover:text-on-primary-container">
+                    <span class="material-symbols-outlined text-3xl">medication</span>
+                </div>
+                <h4 class="font-headline font-bold mb-2">Medicina Integrativa</h4>
+                <p class="text-xs text-on-surface-variant">Salud desde la raíz sistémica</p>
+            </div>
+            <div class="flex flex-col items-center text-center max-w-[200px] group">
+                <div
+                    class="w-20 h-20 rounded-full bg-surface-container-low flex items-center justify-center mb-4 transition-all group-hover:bg-primary-container group-hover:text-on-primary-container">
+                    <span class="material-symbols-outlined text-3xl">settings_accessibility</span>
+                </div>
+                <h4 class="font-headline font-bold mb-2">Diseño de Hábitos</h4>
+                <p class="text-xs text-on-surface-variant">Estructura para la libertad</p>
+            </div>
+        </div>
+    </section>
+    <!-- Goals Grid -->
+    <section class="bg-surface-container-low py-32 editorial-margin rounded-3xl">
+        <div class="px-8 md:px-16">
+            <h2 class="text-4xl font-headline font-bold mb-16">Objetivos del Programa</h2>
+            <div class="grid md:grid-cols-5 gap-6">
+                <div
+                    class="bg-surface-container-lowest p-8 rounded-xl border border-outline-variant/10 hover:shadow-lg transition-all md:col-span-2">
+                    <span class="text-primary font-bold text-5xl opacity-20 font-headline">01</span>
+                    <h3 class="text-2xl font-headline font-bold mt-4 mb-4">Autoconocimiento</h3>
+                    <p class="text-on-surface-variant leading-relaxed">Entender el funcionamiento de tu cuerpo y mente
+                        para dejar de luchar contra ellos.</p>
+                </div>
+                <div
+                    class="bg-surface-container-lowest p-8 rounded-xl border border-outline-variant/10 hover:shadow-lg transition-all md:col-span-3">
+                    <span class="text-primary font-bold text-5xl opacity-20 font-headline">02</span>
+                    <h3 class="text-2xl font-headline font-bold mt-4 mb-4">Patrones de Conducta</h3>
+                    <p class="text-on-surface-variant leading-relaxed">Identificar y transformar los disparadores
+                        inconscientes que te llevan al agotamiento o la inacción.</p>
+                </div>
+                <div
+                    class="bg-surface-container-lowest p-8 rounded-xl border border-outline-variant/10 hover:shadow-lg transition-all md:col-span-3">
+                    <span class="text-primary font-bold text-5xl opacity-20 font-headline">03</span>
+                    <h3 class="text-2xl font-headline font-bold mt-4 mb-4">Hábitos Atómicos</h3>
+                    <p class="text-on-surface-variant leading-relaxed">Implementar micro-hábitos que no requieren fuerza
+                        de voluntad pero generan grandes cambios acumulativos.</p>
+                </div>
+                <div
+                    class="bg-surface-container-lowest p-8 rounded-xl border border-outline-variant/10 hover:shadow-lg transition-all md:col-span-2">
+                    <span class="text-primary font-bold text-5xl opacity-20 font-headline">04</span>
+                    <h3 class="text-2xl font-headline font-bold mt-4 mb-4">Autonomía Energética</h3>
+                    <p class="text-on-surface-variant leading-relaxed">Convertirte en el propio gestor de tu vitalidad
+                        física y mental.</p>
+                </div>
+                <div
+                    class="bg-primary text-on-primary p-8 rounded-xl md:col-span-5 flex flex-col md:flex-row items-center justify-between gap-8">
+                    <div>
+                        <span class="font-bold text-5xl opacity-20 font-headline">05</span>
+                        <h3 class="text-3xl font-headline font-bold mt-2">Tu Sistema Personal</h3>
+                    </div>
+                    <p class="text-on-primary/90 text-lg max-w-xl text-left">Diseñar un traje a medida de bienestar que
+                        se adapte a tu vida real, no a una idealizada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Methodology & Details -->
+    <section class="py-32 editorial-margin">
+        <div class="grid md:grid-cols-2 gap-20 items-center">
+            <div class="order-2 md:order-1">
+                <div class="aspect-square bg-surface-container rounded-full relative overflow-hidden">
+                    <img class="w-full h-full object-cover mix-blend-multiply opacity-80"
+                        data-alt="A group of diverse professionals sitting in a circle in a bright modern studio, sharing experiences and laughing softly"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAepznSwyZ_c6itBEu3OoMFn8MS7Uhqfm29F9asHjR42KxzoYRkHWe5DOO_yBFbqjJU-AvJtokLsHydrROJugSJwo2w8BZ0D3gwzb4P32hP7W5f0-nCWM_PbYRVjqnz3Cfb6_qjdWJ4WCrhP6u7Yzim4oKmpOLyCDUwhVPE0qffIlljRTBRiHoCfy06F-dg5FMqpvgjbVHcEibHgiSIR9CgG9OVd9tiPTy-7O4duPSG8Sj7ALyItXmt-l7PXk_XOeuT48HnGI1_qKX-" />
+                </div>
+            </div>
+            <div class="order-1 md:order-2 space-y-10">
+                <h2 class="text-4xl font-headline font-bold">Cómo lo vamos a vivir</h2>
+                <div class="space-y-6">
+                    <div class="flex gap-6 pb-6 border-b border-outline-variant/20">
+                        <span class="material-symbols-outlined text-primary text-3xl">video_call</span>
+                        <div>
+                            <h4 class="font-bold text-lg">12 Clases Online</h4>
+                            <p class="text-on-surface-variant">Modalidad online sincrónica por Zoom (con acceso a
+                                grabaciones).</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6 pb-6 border-b border-outline-variant/20">
+                        <span class="material-symbols-outlined text-primary text-3xl">calendar_month</span>
+                        <div>
+                            <h4 class="font-bold text-lg">Inicia 7 de Mayo, 2026</h4>
+                            <p class="text-on-surface-variant">Jueves de 19:00 a 21:00 hs. Un espacio sagrado en tu
+                                agenda.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6 pb-6 border-b border-outline-variant/20">
+                        <span class="material-symbols-outlined text-primary text-3xl">forum</span>
+                        <div>
+                            <h4 class="font-bold text-lg">Intercambio Grupal</h4>
+                            <p class="text-on-surface-variant">Micro-acciones semanales y seguimiento en comunidad.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modules Section -->
+    <section class="py-32 bg-surface-container-lowest" id="modulos">
+        <div class="editorial-margin">
+            <h2 class="text-4xl md:text-5xl font-headline font-bold text-center mb-20">El Viaje de Transformación</h2>
+            <div class="grid md:grid-cols-4 gap-4">
+                <div class="group cursor-default">
+                    <div
+                        class="h-full p-8 rounded-xl bg-surface hover:bg-primary transition-all duration-500 border border-outline-variant/10 group-hover:border-transparent">
+                        <h5 class="text-primary group-hover:text-on-primary font-label text-sm mb-4">MÓDULO I</h5>
+                        <h4 class="text-2xl font-headline font-bold mb-4 group-hover:text-on-primary">Conciencia</h4>
+                        <p class="text-on-surface-variant group-hover:text-on-primary/80">Del "automático" al
+                            entendimiento. Identificando los hilos que mueven tus hábitos actuales.</p>
+                    </div>
+                </div>
+                <div class="group cursor-default">
+                    <div
+                        class="h-full p-8 rounded-xl bg-surface hover:bg-primary transition-all duration-500 border border-outline-variant/10 group-hover:border-transparent">
+                        <h5 class="text-primary group-hover:text-on-primary font-label text-sm mb-4">MÓDULO II</h5>
+                        <h4 class="text-2xl font-headline font-bold mb-4 group-hover:text-on-primary">Reprogramación
+                        </h4>
+                        <p class="text-on-surface-variant group-hover:text-on-primary/80">De la exigencia al
+                            autodiálogo. Transformando la narrativa interna para habilitar el cambio.</p>
+                    </div>
+                </div>
+                <div class="group cursor-default">
+                    <div
+                        class="h-full p-8 rounded-xl bg-surface hover:bg-primary transition-all duration-500 border border-outline-variant/10 group-hover:border-transparent">
+                        <h5 class="text-primary group-hover:text-on-primary font-label text-sm mb-4">MÓDULO III</h5>
+                        <h4 class="text-2xl font-headline font-bold mb-4 group-hover:text-on-primary">Hábitos</h4>
+                        <p class="text-on-surface-variant group-hover:text-on-primary/80">De la intención a la realidad.
+                            Aplicando el principio del mínimo esfuerzo para resultados máximos.</p>
+                    </div>
+                </div>
+                <div class="group cursor-default">
+                    <div
+                        class="h-full p-8 rounded-xl bg-surface hover:bg-primary transition-all duration-500 border border-outline-variant/10 group-hover:border-transparent">
+                        <h5 class="text-primary group-hover:text-on-primary font-label text-sm mb-4">MÓDULO IV</h5>
+                        <h4 class="text-2xl font-headline font-bold mb-4 group-hover:text-on-primary">Integración</h4>
+                        <p class="text-on-surface-variant group-hover:text-on-primary/80">De "ir probando" a tener un
+                            sistema propio. Consolidando tu diseño personal de bienestar inteligente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Facilitators Section -->
+    <section class="py-32 editorial-margin" id="facilitadores">
+        <div class="mb-16">
+            <h2 class="text-4xl font-headline font-bold">Tu equipo de guías</h2>
+            <p class="text-on-surface-variant mt-4 text-lg">Profesionales con trayectoria dedicadas a tu desarrollo
+                integral.</p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-12">
+            <!-- Facilitator 1 -->
+            <div
+                class="flex flex-col md:flex-row gap-8 items-center md:items-start p-8 rounded-xl bg-surface-container-low border border-outline-variant/10">
+                <div class="w-48 h-64 flex-shrink-0 rounded-xl overflow-hidden shadow-lg">
 
-<img class="w-full h-full object-cover" data-alt="Portrait of Silvina Calosso, a warm and professional woman with a welcoming smile, soft natural lighting" src="./img/silvina_3.jpg"/>
+                    <img class="w-full h-full object-cover"
+                        data-alt="Portrait of Silvina Calosso, a warm and professional woman with a welcoming smile, soft natural lighting"
+                        src="./img/silvina_3.jpg" />
 
-</div>
-<div class="space-y-4 text-center md:text-left">
-<div>
-<h3 class="text-3xl font-headline font-bold"><a href="https://silvinacalosso.netlify.app/" target="_blank" class="hover:text-primary transition-colors">Silvina Calosso</a></h3>
-<p class="text-primary font-medium">Facilitadora</p>
-</div>
-<p class="text-on-surface-variant text-sm">Coach Ontológica, Organizacional y Health Coach. Experta en gestión del estrés y creación de hábitos sostenibles en el tiempo.</p>
-<div class="flex justify-center md:justify-start gap-4">
-<span class="material-symbols-outlined text-primary/60">award_star</span>
-<span class="material-symbols-outlined text-primary/60">psychology</span>
-</div>
-</div>
-</div>
-<!-- Facilitator 2 -->
-<div class="flex flex-col md:flex-row gap-8 items-center md:items-start p-8 rounded-xl bg-surface-container-low border border-outline-variant/10">
-<div class="w-48 h-64 flex-shrink-0 rounded-xl overflow-hidden shadow-lg">
-<img class="w-full h-full object-cover" data-alt="Portrait of Mirta Vazquez, an executive professional woman looking confident and approachable in a bright office setting" src="./img/mirta.jpeg"/>
-</div>
-<div class="space-y-4 text-center md:text-left">
-<div>
-<h3 class="text-3xl font-headline font-bold">Mirta Vazquez</h3>
-<p class="text-primary font-medium">Co-Facilitadora</p>
-</div>
-<p class="text-on-surface-variant text-sm">Coach Ontológica Profesional y Coach Ejecutiva. Experta en transformación de identidad y vínculos interpersonales.</p>
-<div class="flex justify-center md:justify-start gap-4">
-<span class="material-symbols-outlined text-primary/60">groups</span>
-<span class="material-symbols-outlined text-primary/60">trending_up</span>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Final CTA -->
-<section class="py-32 editorial-margin text-center">
-<div class="bg-primary p-16 md:p-24 rounded-3xl text-on-primary space-y-10 relative overflow-hidden shadow-2xl">
-<!-- Decorative circle -->
-<div class="absolute -top-24 -right-24 w-64 h-64 bg-primary-container/30 rounded-full"></div>
-<h2 class="text-4xl md:text-6xl font-headline font-bold leading-tight max-w-4xl mx-auto">
+                </div>
+                <div class="space-y-4 text-center md:text-left">
+                    <div>
+                        <h3 class="text-3xl font-headline font-bold"><a href="https://silvinacalosso.netlify.app/"
+                                target="_blank" class="hover:text-primary transition-colors">Silvina Calosso</a></h3>
+                        <p class="text-primary font-medium">Facilitadora</p>
+                    </div>
+                    <p class="text-on-surface-variant text-sm">Coach Ontológica, Organizacional y Health Coach. Experta
+                        en gestión del estrés y creación de hábitos sostenibles en el tiempo.</p>
+                    <div class="flex justify-center md:justify-start gap-4">
+                        <span class="material-symbols-outlined text-primary/60">award_star</span>
+                        <span class="material-symbols-outlined text-primary/60">psychology</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Facilitator 2 -->
+            <div
+                class="flex flex-col md:flex-row gap-8 items-center md:items-start p-8 rounded-xl bg-surface-container-low border border-outline-variant/10">
+                <div class="w-48 h-64 flex-shrink-0 rounded-xl overflow-hidden shadow-lg">
+                    <img class="w-full h-full object-cover"
+                        data-alt="Portrait of Mirta Vazquez, an executive professional woman looking confident and approachable in a bright office setting"
+                        src="./img/mirta.jpeg" />
+                </div>
+                <div class="space-y-4 text-center md:text-left">
+                    <div>
+                        <h3 class="text-3xl font-headline font-bold">Mirta Vazquez</h3>
+                        <p class="text-primary font-medium">Co-Facilitadora</p>
+                    </div>
+                    <p class="text-on-surface-variant text-sm">Coach Ontológica Profesional y Coach Ejecutiva. Experta
+                        en transformación de identidad y vínculos interpersonales.</p>
+                    <div class="flex justify-center md:justify-start gap-4">
+                        <span class="material-symbols-outlined text-primary/60">groups</span>
+                        <span class="material-symbols-outlined text-primary/60">trending_up</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Final CTA -->
+    <section class="py-32 editorial-margin text-center">
+        <div class="bg-primary p-16 md:p-24 rounded-3xl text-on-primary space-y-10 relative overflow-hidden shadow-2xl">
+            <!-- Decorative circle -->
+            <div class="absolute -top-24 -right-24 w-64 h-64 bg-primary-container/30 rounded-full"></div>
+            <h2 class="text-4xl md:text-6xl font-headline font-bold leading-tight max-w-4xl mx-auto">
                 Tu camino hacia una mejor calidad de vida comienza aquí
             </h2>
-<p class="text-xl md:text-2xl text-on-primary/80 max-w-2xl mx-auto font-body">
+            <p class="text-xl md:text-2xl text-on-primary/80 max-w-2xl mx-auto font-body">
                 Únete a la próxima cohorte y empieza a diseñar tu bienestar hoy mismo.
             </p>
 
 
-<div class="flex flex-col sm:flex-row justify-center gap-6 pt-6">
-    <a href="https://wa.me/5492235578289?text=Hola!%20Estoy%20listo%20para%20inscribirme%20en%20el%20taller" 
-       target="_blank" 
-       class="bg-surface-container-lowest text-primary px-12 py-5 rounded-full text-xl font-bold hover:bg-secondary-container transition-all active:scale-95 shadow-xl text-center">
-       Quiero Inscribirme
-    </a>
-    <a href="https://wa.me/5492235578289?text=Hola!%20Me%20gustaría%20obtener%20mas%20información%20sobre%20el%20taller,%20me%20pueden%20asesorar%20?" 
-   target="_blank" 
-   class="border-2 border-on-primary/30 text-on-primary px-12 py-5 rounded-full text-xl font-bold hover:bg-on-primary/10 transition-all text-center">
-   Hablar con un asesor
-</a>
-</div>
+            <div class="flex flex-col sm:flex-row justify-center gap-6 pt-6">
+                <a href="https://wa.me/5492235578289?text=Hola!%20Estoy%20listo%20para%20inscribirme%20en%20el%20taller"
+                    target="_blank"
+                    class="bg-surface-container-lowest text-primary px-12 py-5 rounded-full text-xl font-bold hover:bg-secondary-container transition-all active:scale-95 shadow-xl text-center">
+                    Quiero Inscribirme
+                </a>
+                <a href="https://wa.me/5492235578289?text=Hola!%20Me%20gustaría%20obtener%20mas%20información%20sobre%20el%20taller,%20me%20pueden%20asesorar%20?"
+                    target="_blank"
+                    class="border-2 border-on-primary/30 text-on-primary px-12 py-5 rounded-full text-xl font-bold hover:bg-on-primary/10 transition-all text-center">
+                    Hablar con un asesor
+                </a>
+            </div>
 
 
-</div>
-</section>
+        </div>
+    </section>
 
 
-<!-- Footer -->
-<footer class="bg-surface-container-low dark:bg-slate-950 w-full py-16 px-8 mt-24">
-<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-12">
-<div class="space-y-6">
+    <!-- Footer -->
+    <footer class="bg-surface-container-low dark:bg-slate-950 w-full py-16 px-8 mt-24">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-12">
+            <div class="space-y-6">
 
-<!-- <div class="font-serif font-bold text-on-surface dark:text-white text-2xl">Bienestar Inteligente</div> -->
-<img src="./img/logo-horizontal.png" alt="Bienestar Inteligente" class="h-12 w-auto opacity-90">
+                <!-- <div class="font-serif font-bold text-on-surface dark:text-white text-2xl">Bienestar Inteligente</div> -->
+                <img src="./img/logo-horizontal.png" alt="Bienestar Inteligente" class="h-12 w-auto opacity-90">
 
-<p class="text-on-surface-variant max-w-xs text-sm">Acompañando procesos de transformación personal y profesional desde la consciencia.</p>
-<div class="flex gap-4">
-
-
-<a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1" 
-       href="https://www.instagram.com/tubienestarinteligente/" 
-       target="_blank">
-       <span class="material-symbols-outlined text-sm">photo_camera</span> Instagram
-    </a>
+                <p class="text-on-surface-variant max-w-xs text-sm">Acompañando procesos de transformación personal y
+                    profesional desde la consciencia.</p>
+                <div class="flex gap-4">
 
 
-<a class="text-on-surface-variant hover:text-primary transition-all flex items-center gap-2 text-sm group" 
-       href="https://www.linkedin.com/in/silvina-calosso/" 
-       target="_blank">
-       <span class="material-symbols-outlined text-lg group-hover:scale-110 transition-transform">link</span> 
-       LinkedIn
-    </a>
+                    <a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1"
+                        href="https://www.instagram.com/tubienestarinteligente/" target="_blank">
+                        <span class="material-symbols-outlined text-sm">photo_camera</span> Instagram
+                    </a>
 
 
-</div>
-</div>
-<div class="grid grid-cols-2 md:grid-cols-3 gap-12">
-<div class="space-y-4">
-<h5 class="font-bold text-sm tracking-widest uppercase">Explorar</h5>
-<ul class="space-y-2 text-sm text-on-surface-variant">
-<li><a class="hover:text-primary underline-offset-4 hover:underline" href="#">Metodología</a></li>
-<li><a class="hover:text-primary underline-offset-4 hover:underline" href="#">Testimonios</a></li>
-<li><a class="hover:text-primary underline-offset-4 hover:underline" href="#">Próximos Talleres</a></li>
-</ul>
-</div>
-<div class="space-y-4">
-<h5 class="font-bold text-sm tracking-widest uppercase">Legal</h5>
-<ul class="space-y-2 text-sm text-on-surface-variant">
-<li><a class="hover:text-primary underline-offset-4 hover:underline" href="#">Privacidad</a></li>
-<li><a class="hover:text-primary underline-offset-4 hover:underline" href="#">Términos</a></li>
-</ul>
-</div>
-<div class="space-y-4 col-span-2 md:col-span-1">
-<h5 class="font-bold text-sm tracking-widest uppercase">Contacto</h5>
-<ul class="space-y-2 text-sm text-on-surface-variant">
+                    <a class="text-on-surface-variant hover:text-primary transition-all flex items-center gap-2 text-sm group"
+                        href="https://www.linkedin.com/in/silvina-calosso/" target="_blank">
+                        <span
+                            class="material-symbols-outlined text-lg group-hover:scale-110 transition-transform">link</span>
+                        LinkedIn
+                    </a>
 
 
-<li class="flex items-center gap-2">
-    <span class="material-symbols-outlined text-xs">mail</span>
-    <a href="mailto:formacionbienestarinteligente@gmail.com" class="hover:underline">
-        Enviar correo electrónico
-    </a>
-</li>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-12">
+                <div class="space-y-4">
+                    <h5 class="font-bold text-sm tracking-widest uppercase">Explorar</h5>
+                    <ul class="space-y-2 text-sm text-on-surface-variant">
+                        <li><a class="hover:text-primary underline-offset-4 hover:underline" href="#">Metodología</a>
+                        </li>
+                        <li><a class="hover:text-primary underline-offset-4 hover:underline" href="#">Testimonios</a>
+                        </li>
+                        <li><a class="hover:text-primary underline-offset-4 hover:underline" href="#">Próximos
+                                Talleres</a></li>
+                    </ul>
+                </div>
+                <div class="space-y-4">
+                    <h5 class="font-bold text-sm tracking-widest uppercase">Legal</h5>
+                    <ul class="space-y-2 text-sm text-on-surface-variant">
+                        <li><a class="hover:text-primary underline-offset-4 hover:underline" href="#">Privacidad</a>
+                        </li>
+                        <li><a class="hover:text-primary underline-offset-4 hover:underline" href="#">Términos</a></li>
+                    </ul>
+                </div>
+                <div class="space-y-4 col-span-2 md:col-span-1">
+                    <h5 class="font-bold text-sm tracking-widest uppercase">Contacto</h5>
+                    <ul class="space-y-2 text-sm text-on-surface-variant">
 
-<li class="flex items-center gap-2">
-    <span class="material-symbols-outlined text-xs">phone</span>
-    <a href="https://wa.me/549117637860" target="_blank" class="hover:underline">
-        +54 9 223 557-8289
-    </a>
-</li>
 
-<!-- <li class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">language</span> generacionmas.com</li>
+                        <li class="flex items-center gap-2">
+                            <span class="material-symbols-outlined text-xs">mail</span>
+                            <a href="mailto:formacionbienestarinteligente@gmail.com" class="hover:underline">
+                                Enviar correo electrónico
+                            </a>
+                        </li>
+
+                        <li class="flex items-center gap-2">
+                            <span class="material-symbols-outlined text-xs">phone</span>
+                            <a href="https://wa.me/549117637860" target="_blank" class="hover:underline">
+                                +54 9 223 557-8289
+                            </a>
+                        </li>
+
+                        <!-- <li class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">language</span> generacionmas.com</li>
  -->
-</ul>
-</div>
-</div>
-</div>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-<div class="max-w-7xl mx-auto mt-16 pt-8 border-t border-outline-variant/10 flex flex-col md:flex-row justify-between text-xs text-on-surface-variant/60">
-    <p>© 2026 Bienestar Inteligente. Todos los derechos reservados.</p>
-    <p>Diseño enfocado en el bienestar.</p>
-    <p>
-        Created with ♥ by 
-        <a href="https://diegojaviersoto.netlify.app/" target="_blank" class="font-bold hover:text-primary transition-colors underline decoration-primary/20 underline-offset-4">
-            Diego Javier Soto
-        </a> 
-        | Bienestar Digital
-    </p>
-</div>
+        <div
+            class="max-w-7xl mx-auto mt-16 pt-8 border-t border-outline-variant/10 flex flex-col md:flex-row justify-between text-xs text-on-surface-variant/60">
+            <p>© 2026 Bienestar Inteligente. Todos los derechos reservados.</p>
+            <p>Diseño enfocado en el bienestar.</p>
+            <p>
+                Created with ♥ by
+                <a href="https://diegojaviersoto.netlify.app/" target="_blank"
+                    class="font-bold hover:text-primary transition-colors underline decoration-primary/20 underline-offset-4">
+                    Diego Javier Soto
+                </a>
+                | Bienestar Digital
+            </p>
+        </div>
 
-</footer>
+    </footer>
 
-<script>
-    const btn = document.getElementById('menu-btn');
-    const menu = document.getElementById('mobile-menu');
-    const links = document.querySelectorAll('.menu-link');
+    <script>
+        const btn = document.getElementById('menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        const links = document.querySelectorAll('.menu-link');
 
-    // Función para abrir/cerrar
-    btn.addEventListener('click', () => {
-        menu.classList.toggle('hidden');
-    });
-
-    // Cerrar el menú automáticamente al hacer clic en un link (para que baje a la sección)
-    links.forEach(link => {
-        link.addEventListener('click', () => {
-            menu.classList.add('hidden');
+        // Función para abrir/cerrar
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
         });
-    });
-</script>
 
-</body></html>
+        // Cerrar el menú automáticamente al hacer clic en un link (para que baje a la sección)
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
